@@ -1,8 +1,9 @@
-🛠️ Setup Instructions
+🛠️ iOS:
 
-📦 Sync Gradle Open the shared-lib directory in Android Studio. This will automatically sync the Gradle build and generate the required artifacts.
+📦 Sync Gradle Open the shared-lib directory in Android Studio. This will automatically trigger a Gradle sync.
 
-🍎 Install iOS Dependencies Navigate to the KmpIntegrationIOS directory and run:
+🍎 Run `pod install` in the KmpIntegrationIOS directory.
 
-'pod install'
 This links the shared Kotlin module to the iOS project via CocoaPods.
+
+🛠️ Android: just open the project in Android Studio and hit Run ▶️ — you're good to go!
