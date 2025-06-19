@@ -1,0 +1,11 @@
+platform :ios, '17.0'
+
+target 'KmpIntegrationIOS' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for KmpIntegrationIOS
+	pod 'lib_a_shared', :path => '../shared-libs/lib-a-shared'
+	pod 'lib_b_shared', :path => '../shared-libs/lib-b-shared'
+
+end

@@ -1,10 +1,45 @@
-*.iml
-.gradle
-.idea
+# General macOS
 .DS_Store
-build
-captures
-.externalNativeBuild
-.cxx
+
+# IDEs
+.idea/
+*.iml
+
+# Gradle
+.gradle/
+build/
 local.properties
-xcuserdata
+
+# Native Builds
+.externalNativeBuild/
+.cxx/
+
+# Captures
+captures/
+
+# Android Studio Navigation Editor temp files
+.navigation/
+
+# Generated files
+gen/
+out/
+
+# iOS-related
+xcuserdata/
+*.xcworkspace/
+Pods/
+DerivedData/
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+
+# Swift Package Manager
+.build/
+Package.resolved
+
+# Kotlin Multiplatform metadata
+.kotlin/
+
+# Node modules (if applicable)
+node_modules/

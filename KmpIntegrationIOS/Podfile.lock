@@ -1,0 +1,21 @@
+PODS:
+  - lib_a_shared (1.0)
+  - lib_b_shared (1.0)
+
+DEPENDENCIES:
+  - lib_a_shared (from `../shared-libs/lib-a-shared`)
+  - lib_b_shared (from `../shared-libs/lib-b-shared`)
+
+EXTERNAL SOURCES:
+  lib_a_shared:
+    :path: "../shared-libs/lib-a-shared"
+  lib_b_shared:
+    :path: "../shared-libs/lib-b-shared"
+
+SPEC CHECKSUMS:
+  lib_a_shared: 020937b865cef8756bb1f3cacdc911913eaa97c5
+  lib_b_shared: 0b9426335cec0cc37eaccfa929a30cef3a76a84f
+
+PODFILE CHECKSUM: 6a9ff80b06d093c7c0690a0ea831f9256a46951d
+
+COCOAPODS: 1.16.2
